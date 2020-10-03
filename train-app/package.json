@@ -4,11 +4,11 @@
   "private": true,
   "license": "UNLICENSED",
   "devDependencies": {
-    "@fitbit/sdk": "~4.1.0",
-    "@fitbit/sdk-cli": "^1.7.1"
+    "@fitbit/sdk": "~5.0.0",
+    "@fitbit/sdk-cli": "^1.7.3"
   },
   "fitbit": {
-    "appUUID": "04802762-b42e-436b-a9ce-513cb263dbbe",
+    "appUUID": "5f2b7571-e32d-408d-93b0-93cc7e08a3f2",
     "appType": "clockface",
     "appDisplayName": "Train App",
     "iconFile": "resources/icon.png",
@@ -19,10 +19,7 @@
       "run_background"
     ],
     "buildTargets": [
-      "higgs",
-      "meson",
-      "gemini",
-      "mira"
+      "vulcan"
     ],
     "i18n": {},
     "defaultLanguage": "en-US"
